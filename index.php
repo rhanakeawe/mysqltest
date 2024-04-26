@@ -1,11 +1,14 @@
 <?php
 
+## The home page
+
 session_start();
 
 if (isset($_SESSION["user_id"])) {
 
     $mysqli = require __DIR__ ."/database.php";
 
+    # Gets user from database
     $sql = "SELECT * FROM user
             WHERE id = {$_SESSION["user_id"]}";
     
@@ -15,6 +18,8 @@ if (isset($_SESSION["user_id"])) {
 }
 
 ?>
+
+<!--  html for the home page  -->
 
 <!DOCTYPE html>
 <html>
@@ -29,6 +34,7 @@ if (isset($_SESSION["user_id"])) {
 
         <?php if (isset($user)) : ?>
             
+            <!-- Hello {user}-->
             <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
             <p><a href="logout.php">Log out</a></p>
 

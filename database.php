@@ -1,6 +1,6 @@
 <?php
 
-# Connects pages to the database
+## Connects pages to the database
 
 $host = "localhost";
 $dbname = "login_db";

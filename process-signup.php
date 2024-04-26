@@ -1,6 +1,6 @@
 <?php
 
-# Account creation handler
+## Account creation handler
 
 if (empty($_POST["name"])) {
     die("Name is required");

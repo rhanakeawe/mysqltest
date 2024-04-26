@@ -1,3 +1,5 @@
+// Client-side validation for signup page
+
 const validation = new JustValidate("#signup");
 
 validation
@@ -13,7 +15,7 @@ validation
         {
             rule: "email"
         },
-        {
+        { // Checks if email is taken in database
             validator: (value) => () => {
                 return fetch("validate-email.php?email=" + encodeURIComponent(value))
                     .then(function(response) {
@@ -34,6 +36,8 @@ validation
             rule: "password"
         }
     ])
+
+    // Checks if passwords match
     .addField("#password-confirmation", [
         {
             validator: (value, fields) => {
