@@ -4,10 +4,12 @@ https://picocss.com/docs
 https://just-validate.dev/docs/intro
 
 How I Open the Website:
-1. Open XAMPP
-2. Start Apache
-3. Start MySQL
-4. Serve the Server in VSCode using the PHP Server by brapifra
+1. Install XAMPP
+2. Clone mysqltest into xampp/htdocs/
+3. Open XAMPP
+4. Start Apache
+5. Start MySQL
+6. Serve the Server in VSCode using the PHP Server by brapifra
 
 The "Admin" button for MySQL in XAMPP opens phpmyadmin that is used to view and edit the database.
 
