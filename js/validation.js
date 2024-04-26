@@ -1,4 +1,6 @@
 // Client-side validation for signup page
+// Uses JustValidate
+// https://just-validate.dev/docs/intro
 
 const validation = new JustValidate("#signup");
 
