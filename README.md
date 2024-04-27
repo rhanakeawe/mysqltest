@@ -24,7 +24,7 @@
 
 
 9. Open mysqltest
-10. Right click on any code in VSCode and "PHP Server: Serve Project"
+10. Right click while in "signup.html" in VSCode and "PHP Server: Serve Project"
 
 You can reload the project to test changes.
 
