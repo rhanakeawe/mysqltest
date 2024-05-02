@@ -17,14 +17,9 @@
 4. Start Apache
 5. Start MySQL
 6. Click on "Admin" in the MySQL row in XAMPP to open phpmyadmin
-7. Create a new database called "login_db"
-8. Create a new table called "user" with these attributes
-
-![image](https://github.com/ghosty514/mysqltest/assets/106127486/c2a66a36-b211-476d-9890-428171f643a3)
-
-
-9. Open mysqltest
-10. Right click while in "signup.html" in VSCode and "PHP Server: Serve Project"
+7. Create a new database https://youtu.be/5L9UhOnuos0?feature=shared&t=599
+8. Open mysqltest
+9. Right click while in "signup.html" in VSCode and "PHP Server: Serve Project"
 
 You can reload the project to test changes.
 
